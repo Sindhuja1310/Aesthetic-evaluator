@@ -2,9 +2,8 @@ from flask import Flask, render_template, request, jsonify
 import base64
 import numpy as np
 import cv2
-from rembg import remove
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 def image_normalization(image, percentile):
     image_normalized = np.zeros(image.shape, dtype='float64')
