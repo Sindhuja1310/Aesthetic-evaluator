@@ -1,4 +1,4 @@
 Flask==2.0.2
 opencv-python-headless==4.5.3.56
-rembg==1.0.34
+rembg==2.0.56
 numpy==1.18.5
