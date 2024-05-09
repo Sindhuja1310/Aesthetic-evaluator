@@ -1,3 +1,5 @@
+/* script.js */
+
 $(document).ready(function() {
     // Show the upload option
     $("#uploadOption").click(function() {
