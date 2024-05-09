@@ -1,0 +1,96 @@
+body {
+    background-color: #f9eded; /* Light pink background */
+}
+
+.container {
+    max-width: 800px; /* Increased width */
+    margin: 50px auto;
+    padding: 40px; /* Increased padding */
+    background-color: #ffe0cc; /* Light orange background */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #ff6600; /* Orange color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.option-menu {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #ff944d; /* Light orange color */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff6600; /* Orange color */
+}
+
+.result {
+    margin-top: 20px;
+    text-align: left;
+    color: #333; /* Dark grey color */
+}
+
+.preview {
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 10px;
+}
+
+.preview img, .preview video, .preview canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#previewImage {
+    object-fit: cover;
+}
+
+.placeholder {
+    color: #999999;
+    font-style: italic;
+}
+
+.list-unstyled li {
+    list-style-type: none;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffe0cc; /* Light orange background */
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: #333;
+    border: none;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    color: #fff;
+    background-color: #ff6600; /* Orange color */
+    border-radius: 5px;
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+    background-color: #ff4d4d; /* Darker orange color */
+}
