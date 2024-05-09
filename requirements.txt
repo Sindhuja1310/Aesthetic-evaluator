@@ -1,4 +1,4 @@
 Flask==2.0.2
-numpy==1.18.5
+numpy==1.18.5 --no-cache-dir
 opencv-python-headless==4.5.3.56
-rembg==1.0.33
+rembg==1.0.33 --no-cache-dir
