@@ -1,0 +1,19 @@
+{
+  "name": "aesthetic-evaluation",
+  "version": "1.0.0",
+  "description": "Aesthetic Evaluation Project",
+  "main": "app.py",
+  "scripts": {
+    "start": "python app.py"
+  },
+  "author": "Sindhuja",
+  "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "flask": "^2.1.0",
+    "opencv-python": "^4.5.3.56",
+    "rembg": "^1.0.27"
+  }
+}
