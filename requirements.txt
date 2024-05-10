@@ -1,4 +1,4 @@
-Flask==2.0.2
-opencv-python-headless==4.5.3.56
-rembg==2.0.56
-numpy==1.18.5
+Flask==1.1.2
+numpy==1.20.1
+opencv-python==4.5.1.48
+rembg==1.0.27
